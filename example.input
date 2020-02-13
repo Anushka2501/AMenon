@@ -22,12 +22,16 @@ maxlev	  6
 startup 1 3
 
 #mass profile of lens galaxy
+## last 2 params - are they correct? check glafic .. this is not same as the light profile
 lens sie    229.18  0.0 0.0 0.2  45.0 2.1 4.0     #Reff=10kpc
 
+
 #light profile of lens galaxy
+## 2nd param is flux, it doesn't look right
 extend sersic 0.300001 398107170553.49695 0.0  0.0 0.2 45.0 2.1 4.0
 
 #host galaxy
+## 2nd param is flux, it doesn't look right, src_x,y=0,0 is fine but you will have to change it at some point. Reff seems too small.
 extend sersic  1.0 1293790361192.7434 0.0  0.0 0.2 10.0 0.42 1.3  #Reff=3500pc
 
 #SNe
