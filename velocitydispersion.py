@@ -12,7 +12,7 @@ R = float(input("Enter the effective radius in kpc: "))
 h = float(0.72/0.7)           # h=h70 is reduced Hubbles constant
 lum = luminosity(h,R)           # In terms of solar luminosity
 sigma = vel_dispersion(lum,h)   # In kilometer/sec 
-print(lum)
-print(sigma)
+print("Lum in 1e10 Lsun:",lum/1.e10)
+print("Velocity dispersion in km/s:",sigma)
 
 
