@@ -7,7 +7,7 @@ def absmag_to_appmag(M,D):
     return app_mag
 
 def appmag_to_flux(app_mag):
-    flux = 10**((app_mag-24)/-2.5)        # zp mag = 24  
+    flux = 10**((25-app_mag)/2.5)        # zp mag = 24  
     return flux
 
 D = float(input("The effective radius in parsec: "))
