@@ -32,7 +32,7 @@ extend sersic 0.300001 10.1859 0.0  0.0 0.2 45.0 2.1 4.0
 
 #host galaxy
 ## 2nd param is flux, it doesn't look right, src_x,y=0,0 is fine but you will have to change it at some point. Reff seems too small.
-extend sersic  1.0 5.78096 0.0  0.0 0.2 10.0 0.42 1.3  #Reff=3500pc
+extend sersic  1.0 5.78096 0.0  0.0 0.2 10.0 0.439 1.3  #Reff=3500pc
 
 #SNe
 extend point 1.0 150.0 0.45 0.45 0.0 0.0 0.0 0.0
